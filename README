@@ -1,0 +1,31 @@
+A port of my ruby harmony library. Good for representing and manipulating concepts in
+music theory, which takes a slightly abstracted/mathematical approach to modelling them.
+
+Why?
+
+Currently just an excuse for me to play with scala and some of the associated toolchain.
+
+I'm following the bleeding edge of 2.8 development at the moment, mainly because its
+new collection stuff makes it a lot easier to give PitchSet etc a nice set-like API.
+But also just because I wanna try it out.
+
+Examples of use to come.
+
+Build:
+
+Needs sbt (http://code.google.com/p/simple-build-tool/)
+with 
+http://code.google.com/p/simple-build-tool/wiki/LocalScala
+because of the 2.8 stuff.
+
+
+sbt
+> update
+> compile
+
+will do it.
+I also like to use sbt's
+
+> console
+
+to compile and play with it
